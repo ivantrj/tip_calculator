@@ -45,7 +45,7 @@ class _MyHomePageState extends State<MyHomePage> {
             Padding(
               padding: const EdgeInsets.all(20),
               child: Text(
-                'Your tip is $tip',
+                'Your tip is \$$tip',
                 style:
                     const TextStyle(fontSize: 30, fontWeight: FontWeight.bold),
               ),
@@ -61,7 +61,6 @@ class _MyHomePageState extends State<MyHomePage> {
                     const TextStyle(fontWeight: FontWeight.w600, fontSize: 25),
                 controller: controller,
                 textAlign: TextAlign.center,
-                // decoration: const InputDecoration(hintText: '\$0.00'),
                 decoration: const InputDecoration(
                   border: OutlineInputBorder(),
                   hintText: '\$0.00',
